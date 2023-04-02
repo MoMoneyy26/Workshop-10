@@ -1,0 +1,150 @@
+.mainframe {
+    position: relative;
+}
+
+.topbox {
+    display: flex;
+    height: 200px
+}
+
+.topbox > div {
+    background-color: rgb(26, 150, 154);
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.topbox > div:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* SHORTHAND- MARGIN: 0 10PX 0 10PX; */ /* MARGIN ORDER IS TOP RIGHT BOTTOM LEFT*/
+}
+
+.midbox {
+    height: 400px;
+    background-color: rgb(26, 150, 154);
+    margin-bottom: 10px;
+}
+
+.bottombox {
+    height: 40px;
+    background-color: yellowgreen;
+}
+
+.circle1 {
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 30px;
+}
+
+.circle2 {
+    height: 140px;
+    width: 140px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 250px;
+    top: 25px;
+}
+
+.circle3 {
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 140px;
+}
+
+.circle4 {
+    height: 140px;
+    width: 140px;
+    background-color: salmon;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 410px;
+    top: 115px;
+}
+
+.circle5 {
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 520px;
+    top: 10px;
+}
+
+.circle6 {
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left:200px;
+    top: 250px;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent; 
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid yellowgreen;
+    position: absolute;
+    z-index: 4;
+    top: 250px;
+    left: 1004px;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent; 
+    border-right: 200px solid transparent;
+    border-bottom: 450px solid green;
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    left: 700px;
+}
+
+.people {
+    top: 400px;
+    left: 200px;
+    position: absolute;
+    z-index: 3;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.submitbutton {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    /*margin: 1 2 1 2 PADDING SHORTHAND*/
+    width: 10%;
+    text-align: center;
+    margin-left: 9rem;
+}
+
+h3 {
+    margin-left: 2rem;
+}
