@@ -148,3 +148,13 @@
 h3 {
     margin-left: 2rem;
 }
+
+#parent {
+    position:relative;
+    }
+    #child {
+    position: absolute;
+    }
+    /*^^^ TRYING TO MAKE THE WEBPAGE RESPONSIVE TO DIFFERENT SCREEN SIZES - NOT WORKING LOL*/
+
+    
